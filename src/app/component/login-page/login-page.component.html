@@ -1,0 +1,34 @@
+<div class="jumbotron "  >
+    <div class="container login-main" >
+            <div> <alert></alert></div>
+    <mat-card class="adminLoginCardBG">
+    <mat-card-header>
+     <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content fxLayout="row" align="middle">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+    <p>
+    <mat-form-field>
+    <input type="text" matInput placeholder="Username" formControlName="userName" required>
+    </mat-form-field>
+    </p>
+    <p>
+    <mat-form-field>
+    <input type="password" matInput placeholder="Password" formControlName="password" required>
+    </mat-form-field>
+    </p>
+    <p *ngIf="error" class="error">
+    {{ error }}
+    </p>
+    
+    <mat-card-actions align="middle">
+    
+    <button type="submit" mat-raised-button>Login</button>
+    <button (click)="register()" mat-raised-button>Register</button>
+    </mat-card-actions>
+    </form>
+    <mat-progress-spinner mode="indeterminate" color="primary" *ngIf="loading"></mat-progress-spinner>
+    </mat-card-content>
+    </mat-card>
+    </div>
+    </div>

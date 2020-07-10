@@ -1,0 +1,30 @@
+<mat-toolbar class="clientHeaderBG">
+    <div fxFlex fxLayout fxLayoutAlign="flex-start">
+      <ul fxLayout style="list-style-type:none;">
+        
+        <li>
+          <span class="label">
+              
+            <button mat-button (click)="home('mamList')">Clarety</button>
+          </span>
+        </li>
+  
+      </ul>
+    </div>
+      
+    <div fxFlex fxLayout fxLayoutAlign="flex-end">
+      <ul fxLayout style="list-style-type:none;">    
+       
+        <li>
+          <span class="label">
+            <button mat-button (click)="logout()" >Logout</button>
+            <ng-template #loginButton>
+              <button mat-button (click)="loginScreen()">Login</button>
+  
+            </ng-template>
+          </span>
+        </li>
+  
+      </ul>
+    </div>
+  </mat-toolbar>

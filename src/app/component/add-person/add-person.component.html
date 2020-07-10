@@ -1,0 +1,104 @@
+<div class="row">
+    <div class="col-sm-12">
+        <div id="divLoadtag" hidden>
+
+            <!-- <div class="mk-spinner-centered mk-spinner-doublecircle"></div> -->
+        </div>
+        <!-- start: DYNAMIC TABLE PANEL -->
+        <div class="panel panel-default">
+
+            <form [formGroup]="personForm" (ngSubmit)="onSave()">
+                <div class="panel-heading">
+                    <i class="fa clip-file-3"></i> Add Person
+                </div>
+                <div class="panel-body">
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="ssNr">SSN</label>
+                        <div class="col-sm-4">
+                            <input type="text" id="ssNr" formControlName="ssNr" class="form-control" maxlength="9" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="fstNm">First Name<span class="sym required"></span>
+                        </label>
+                        <div class="col-sm-4">
+                            <input type="text" id="fstNm" name="fstNm" class="form-control" formControlName="fstNm"
+                                required="true" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="midNm">Middle Name</label>
+                        <div class="col-sm-4">
+                            <input type="text" formControlName="midNm" name="midNm" id="midNm"> 
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="lastNm">Last Name<span class="sym required"></span>
+                        </label>
+                        <div class="col-sm-4">
+                            <input type="text" id="lastNm" formControlName="lastNm" class="form-control" required="true" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="gender">Gender<span class="sym required"></span>
+                        </label>
+                        <div class="col-sm-4">
+                            <select id="gender" headerKey="" headerValue="Select the Gender" 
+                            formControlName="sexCd" class="form-control" required="true">
+                                <option value="M" label="Male"></option>
+                                <option value="F" label="Female"></option>
+                                <option value="UNKW" label="Unknown"></option>
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="maritalStat">Marital Status</label>
+                        <div class="col-sm-4">
+                            <select id="maritalStat" headerKey="" headerValue="Select Marital Status"
+                            formControlName ="mrtlStatCd" class="form-control">
+                            <option value="MARR" label="Married"></option>
+                            <option value="SNGL" label="Single"></option>
+                            <option value="DVRC" label="Divorced"></option>
+                            <option value="WIDW" label="Widowed"></option>
+                            <option value="UKNW" label="Unknown"></option>
+                            
+                            </select>
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-1"></div>
+                        <label class="col-sm-2 control-label" for="brthDt">Date of Birth<span
+                                class="sym required"></span> </label>
+                        <div class="col-sm-4">
+                            <input type="text" id="brthDt" data-placement="right"
+                                data-content="Enter date in format mm/dd/yyyy" name="brthDt"
+                                maxlength="10" class="form-control" required="true" formControlName="brthDt" />
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-2">
+                        <button class="btn btn-success  btn-block">
+                            Save <i class="fa fa-arrow-circle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="panel-body" id="requestInfoTable">
+    <div>
+        <a (click)="addNewRequest()">Add New Request</a>
+    </div>
+    <table class="table table-striped table-bordered table-hover table-full-width">
+        <thead>
+            <tr>
+                <th>Request Id</th>
+                <th>Submitted Date</th>
+                <th>Submitted Time</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let request of requests">
+                <td>{{request.rqstId}}</td>
+                <td>{{request.rqstDate | date:'dd/MM/yyyy'}}</td>
+                <td>{{request.rqstTime}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

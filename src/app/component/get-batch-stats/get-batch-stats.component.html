@@ -1,0 +1,50 @@
+<div>
+    <a (click)="setEnv('UAT45')">
+        UAT45
+    </a>
+</div>
+
+<!-- <div>
+    <h2 class="example-h2">Result</h2>
+
+    <mat-progress-spinner
+        class="example-margin"
+        [color]="color"
+        [mode]="mode"
+        [value]="value">
+    </mat-progress-spinner>
+</div> -->
+<div *ngIf="loading">
+    
+     <mat-spinner
+        [mode]="mode"
+        [color]="color"
+        style="position: absolute;top:30%;left:50%;background-color:red;">
+    </mat-spinner> 
+</div>
+
+<div class="panel-body" id="personInfoTable">
+    <h1 *ngIf="envName">Evironment - {{envName}}</h1>
+    <table *ngIf="!loading"  class="table table-striped table-bordered table-hover table-full-width">
+        <thead>
+            <tr>
+                <th>Batch Name</th>
+                <th>Batch Description</th>
+                <th>Begin Date</th>
+                <th>End Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let batchStat of batchStats">
+                <td>{{batchStat.batchName}}</td>
+                <td>{{batchStat.batchDescription}}</td>
+                <td>{{batchStat.beginDateTime}}</td>
+                <td>{{batchStat.endDateTime}} </td>
+                <td>{{batchStat.status}} </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>

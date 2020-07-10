@@ -1,0 +1,1055 @@
+
+#search-page {
+	height: 50sortColumn,sortOrderTableDatax;
+	width: 600px;
+	margin: auto auto 0 auto;
+}
+.advSearch{
+	background-color: #FFFFFF;
+}
+#search-page .advSearch-box {
+	margin-top:150px;
+	width:  100%;
+	height:100%;
+	position: relative;
+	padding: 10px 10px 10px 10px;
+}
+
+#search-page .advSearch-box input[type="text"] {
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 12pt;
+	margin: 0px;
+	width: 100%;
+}
+
+#search-page .advSearch-box input[type="text"]:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
+	outline: 0 none;
+	width: 100%;
+}
+
+#search-page .advSearch-box .btn-group {
+	border-radius: 0;
+	line-height: normal;
+}
+
+#search-page .advSearch-box .btn-group:after {
+	content: "";
+	display: table;
+}
+
+#search-page .advSearch-box .btn-group label {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-size: 15px;
+	display: inline-block;
+	width: 250px;
+	float: left;
+	padding: 10px; 
+}
+
+#Search .setup-content label.error {
+	color: #FB3A3A;
+	display: inline-block;
+	border: 0px;
+	padding: 0;
+	text-align: left;
+	width: 250px;
+}
+.alert-warningCustom {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+.alert-dangerCustom {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-infoCustom {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+.alert-successCustom {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+#personalSumamry{
+	font-size: 12px;
+}
+.wordWrap{
+	word-wrap: break-word;
+	word-break: break-all;
+	white-space:normal;
+	table-layout:fixed;
+}
+#physicalCanadaAddress {
+	display: none;
+}
+
+#physicalotherAddress {
+	display: none;
+}
+
+#maillingCanadaAddress {
+	display: none;
+}
+
+#maillingotherAddress {
+	display: none;
+}
+
+.disabledbutton {
+	pointer-events: none;
+	opacity: 0.4;
+}
+/* ---------------------------------------------------------------------- */
+/*	Finance CSS-Tables,Panels,Buttons Start
+ /* ---------------------------------------------------------------------- */
+
+/*Tables*/
+.table-Plandata tbody tr.highlight td {
+	background-color: #c2d6d6 !important;
+	color: #000 !important;
+	border-bottom: 1pt solid #000;
+	border-top: 1pt solid #000;
+}
+
+.table-Plandata tr th,.table-pyrlsmrydata tr th {
+	background-color: #004F6A;
+	color: #fff;
+	text-align: center;
+	height: 45px;
+}
+
+.table-Plandata tr td:first-child {
+	text-align: center;
+}
+
+.table-Plandata tr td:not(first-child) {
+	text-align: right;
+}
+
+.table-Plandata tr:nth-child(2n) {
+	background: #f0f5f5 !important;
+}
+
+.table-Plandata tr:last-child,.table-Plandata  tr:last-child  td:nth-child(odd),.table-Plandata  tr:last-child  td:nth-child(even),.SummrayTotal
+	{
+	border-top: 1.25px solid #fff;
+	border-bottom: 1.25px solid #fff;
+	background-color: #288079 !important;
+	color: #fff;
+}
+
+.SummrayTotal tr:hover {
+	color: #000;
+}
+
+.table-Plandata tr:last-child:hover {
+	background-color: #37aea8;
+}
+
+.table-Plandata tr:not(last-child) td:first-child,.table-pyrlcmpr tr:not(last-child) td:first-child
+	{
+	background-color: none !important;
+	color: #000;
+	font-weight: bold;
+	text-align: left;
+}
+
+.table-PymtCrctn   td:nth-child(even) {
+	border-top: 1.25px solid #fff;
+	border-bottom: 1.25px solid #fff;
+	background-color: none;
+	color: #000;
+}
+
+.table-pyrlsmrydata tr td:first-child {
+	text-align: left;
+}
+
+.table-pyrlsmrydata tr td:not(first-child) {
+	text-align: right;
+}
+
+.table-pyrlsmrydata tr {
+	border-style: solid;
+	border-color: #fff;
+}
+
+.table-pyrlcmpr tr:last-child,.table-pyrlcmpr  tr:last-child  td:nth-child(odd),.table-pyrlcmpr  tr:last-child  td:nth-child(even)
+	{
+	border-top: 1.25px solid #fff;
+	border-bottom: 1.25px solid #fff;
+	background-color: #288079 !important;
+	color: #fff;
+}
+
+.table-PymtCrctnData tr th {
+	background-color: #004F6A !important;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.table-PymtCrctnData tr:nth-child(odd),.table-pyrlsmrydata tr:nth-child(odd)
+	{
+	background: #ecf8f2 !important;
+}
+
+table.dataTable tr.odd td.sorting_1 {
+	background-color: #f0f5f5 !important;
+}
+
+table.dataTable tr.even td.sorting_1 {
+	background-color: #e6e6e6 !important;
+}
+
+.caption {
+	font-weight: bold;
+	color: #000;
+}
+
+table td a{
+text-decoration: none!important;
+}
+table td a:hover,table td a:focus{
+text-decoration:underline !important;
+}
+/*Buttons*/
+
+
+.anyButton:focus,.anyButton:hover,table.dataTable thead th:hover,table.dataTable thead th:focus
+	{
+	background-color: #0075B0 !important;
+	color: #fff !important;
+}
+
+.btn-success {
+	background: #086311 !important;
+}
+
+
+.btn-danger {
+	background: #b20d08 !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-retroorange,.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-retroorange
+	{
+	color: #fff;
+	background: #92a8d1;
+}
+
+/*Panels*/
+.finance-panel {
+	box-shadow: 2px 3px 5px #888888 !important
+}
+.custom-finance-panel-width{
+width:97% !important;
+}
+
+.panelactive {
+	border-top-color: #194d33;
+	border-top-width: thick;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+.panelheadingactive {
+	border-color: #194d33 !important;
+	border-width: thick !important;
+}
+#dynamic-panel {
+	-moz-transition: height 2s;
+	-ms-transition: height 2s;
+	-o-transition: height 2s;
+	-webkit-transition: height 2s;
+	transition: height 2s;
+	height: 0;
+	overflow: hidden;
+}
+/*	Finance CSS-Tables,Panels,Buttons End*/
+
+/* ---------------------------------------------------------------------- */
+/*	CSS for Flot Containers and Charts Start
+ /* ---------------------------------------------------------------------- */
+.flot-container {
+	box-sizing: border-box;
+	position: relative;
+	height: 450px;
+}
+
+.flot-placeholder {
+	height: 100%;
+	width:100%;
+	line-height: 1.2em;
+}
+
+.legend table {
+	border-spacing: 5px;
+}
+
+.flot-container #choices {
+	position: absolute;
+	width: 135px;
+	right: 0;
+	top: 0;
+}
+
+.flot-small-container {
+	height: 300px;
+}
+
+.flot-mini-container {
+	height: 135px;
+}
+
+.flot-medium-container {
+	height: 360px;
+}
+
+div.flot-text,div.data-point-label {
+	font-weight: bold !important;
+}
+
+/*	CSS for Flot Containers and Charts End*/
+
+/* ---------------------------------------------------------------------- */
+/*	 CSS for Datepicker Start
+ /* ---------------------------------------------------------------------- */
+.datepicker table tr td.day.focused,.datepicker table tr td.day:hover {
+	background-color: #0075B0 !important;
+	color: #fff !important;
+}
+
+.datepicker table tr td.ADAold,.datepicker table tr td span.ADAold,.tab-bricky li a
+	{
+	color: #6a6a6a
+}
+
+.datepicker table tr td.ADAnew,.datepicker table tr td span.ADAnew,table#SearchTable tr td
+	{
+	color: #6a6a6a
+}
+
+.datepicker {
+	todayHighlight: false;
+}
+
+.Custom-Circle {
+	width: auto !important;
+	height: auto !important;
+	border-radius: 50% !important;
+}
+
+.Custom-roundedEdge {
+	width: auto !important;
+	height: auto !important;
+	border-radius: 35% !important;
+}
+
+.Custom-diamond {
+	width: 4px !important;
+	height: 4px !important;
+	text-align: center !important;
+	margin: .5px 0 0 5px !important;
+	/* Rotate */
+	-webkit-transform: rotate(-45deg) !important;
+	-moz-transform: rotate(-45deg) !important;
+	-ms-transform: rotate(-45deg) !important;
+	-o-transform: rotate(-45deg) !important;
+	transform: rotate(-45deg) !important;
+	/* Rotate Origin */
+}
+
+.custom-diamond-inner {
+	text-align: center;
+	vertical-align: middle;
+	transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+}
+
+div.datepicker tr th.dow {
+	background-color: #fff !important;
+	color: #000 !important;
+}
+
+div.datepicker tr th.prev:hover,div.datepicker tr th.next:hover,div.datepicker tr th.datepicker-switch:hover,div.datepicker tr th.prev:focus,div.datepicker tr th.next:focus,div.datepicker tr th.datepicker-switch:focus
+	{
+	background-color: #ebebe0 !important;
+	color: #000 !important;
+}
+
+div.datepicker tr th.prev,div.datepicker tr th.next,div.datepicker tr th.datepicker-switch
+	{
+	background-color: #f5f5f5 !important;
+	color: #000 !important;
+}
+
+/*	 CSS for Datepicker End*/
+
+/* ---------------------------------------------------------------------- */
+/*	CSS for Full Calendar Start
+ /* ---------------------------------------------------------------------- */
+.label-ADA-Red {
+	background: #cb4400;
+	color: #fff !important;
+}
+
+.label-ADA-green {
+	background-color: #348061;
+	color: #fff !important;
+}
+
+.label-ADA-blue {
+	background-color: #094db3;
+	color: #fff !important;
+}
+
+.label-ADA-lavender {
+	background-color: #822f71;
+	color: #fff !important;
+}
+
+.fc-state-default:focus,.fc-state-default:hover,.fc-state-default:active
+	{
+	background: #c8c7cc !important;
+}
+
+.fa-chevron-left,.fa-chevron-right {
+	color: #666666;
+}
+
+#monthchangelink:hover,#monthchangelink:focus {
+	background: #c8c7cc !important;
+}
+
+div.fc-event:focus,div.event-category:focus {
+	background: #999999 !important;
+	color: #000 !important;
+}
+
+.fc-event-hori {
+	display: inline-block;
+}
+
+div.holidayDilogue {
+	display: table;
+	width: 100%;
+	height: 100%;
+	border-spacing: 5px;
+	padding: 5px;
+}
+
+div.holidayDilogueHeading {
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+}
+
+div.holidayDilogueHeadCell {
+	display: table-cell;
+	color: #31708f;
+	border-width: thin;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: solid #31708f;
+}
+
+div.holidayDilogueRow {
+	display: table-row;
+	text-align: left;
+}
+
+div.holidayDilogueCell {
+	display: table-cell;
+	color: #800000;
+	border-width: thin;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+div.holidayHeadingText {
+    text-align: center;
+    color: #31708f;
+   border-bottom: solid #31708f;
+}
+
+
+/*	CSS for Full Calendar End*/
+
+/* ---------------------------------------------------------------------- */
+/*	CSS for Menus and Breadcrumb Start
+ /* ---------------------------------------------------------------------- */
+.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-submenu:hover>a,.dropdown-submenu:focus>a
+	{
+	background-color: #005d8c !important;
+	color: #ffffff !important;
+	background-image: none !important;
+}
+
+.dropdown-menu>li>a {
+	text-decoration: none;
+}
+
+.navbar-nav {
+	width: 100%;
+}
+
+.nav-pills.nav-stacked li a:hover,.nav-pills.nav-stacked li a:focus {
+	background-color: #3884c7 !important;
+	color: #fff !important;
+}
+
+.nav-pills.nav-stacked li.active a {
+	background-color: #0075B0 !important;
+	color: #ffffff !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+	outline-color: #004f6A !important;
+}
+
+.nav-stacked.nav-pills li .nav a:focus {
+	background-color: #005d8c !important;
+	color: #ffffff;
+}
+
+.anchor-dropdown-toggle {
+	color: #fff !important;
+	text-decoration: none !important;
+
+}
+
+a#financeFunctionsmenulink:hover,a#financeFunctionsmenulink:focus,a#FinanceActivities:hover,a#FinanceActivities:focus {
+	color: #fff !important;
+		background-color:#505060;
+	border-color:#004F6A;
+}
+.list-unstyled > li > a, .list-unstyled  > li > label {
+    display: block;
+    padding: 10px 15px !important;
+    clear: both;
+    font-weight: normal;
+    line-height: 15px !important;
+    /* color: #333333; */
+    white-space: nowrap;
+}
+.list-unstyled > li > a:hover,.list-unstyled > li > a:focus 
+	{
+	background-color: #005d8c !important;
+	color: #ffffff !important;
+	background-image: none !important;
+}
+#administrationSubmenulink >li,#reportsSubmenulist >li,#financeactivitiesSubmenulist > li {
+display: table-cell;
+}
+
+#mainnavigationlst > li.dropdown.open {
+ position: static; 
+ }
+ 
+#mainnavigationlst { 
+margin-bottom: 0; 
+}
+#mainnavigationlst > li.dropdown.open .dropdown-menu {
+display:table; width: 100%; text-align: left; left:0; right:0; 
+}
+
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: #fff;
+	border-radius: 4px
+}
+
+.breadcrumb a:focus,.breadcrumb a:hover,.breadcrumb a:active {
+	text-decoration: underline !important;
+}
+
+/*	CSS for Menu and Breadcrumb End*/
+
+/* ---------------------------------------------------------------------- */
+/*	 CSS for Batch Status Start
+ /* ------------------------------------------------------------------------*/
+.swMain>ul li .stepDesc {
+	color: #000000 !important;
+}
+
+.swMain  ul li a {
+	text-decoration: none !important;
+}
+
+.swMain>ul li .stepDescCustom {
+	color: #344259 !important;
+	display: block;
+	margin-top: 4px;
+	max-width: 100%;
+	table-layout: fixed;
+	text-align: center;
+	word-wrap: break-word;
+	z-index: 104;
+}
+
+.swMain>ul li>a.selected .stepDescCustom,.swMain li>a.done .stepDescCustom
+	{
+	color: #2e3c4c;
+}
+
+/*	 CSS for Batch Status End*/
+
+/* ---------------------------------------------------------------------- */
+/*	 MISC Start
+ /* ------------------------------------------------------------------------*/
+.offscreen-SR {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px); /* for Internet Explorer */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0;
+	border: 0;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+ul.pagination>li>a:focus {
+	background-color: #0075B0 !important;
+	color: #fff !important;
+}
+
+div.modal-header {
+	background-color: #235c5c;
+	color: #fff;
+	border-radius:5px 5px 0px 0px;
+}
+
+.page-header {
+	border-bottom: none;
+	border-bottom: 1px solid #eee;
+}
+
+/*	MISC End*/
+/* ---------------------------------------------------------------------- */
+/*	 Vertical Carousel Controls
+ /* ------------------------------------------------------------------------*/
+.verticalcarousel-control-prev,.verticalcarousel-control-next {
+	width: 60px;
+	height: 92px;
+	background: url(../images/arrow-up-2.png) #fff center center no-repeat;
+	 background-size: 72% 50%;
+	display: block;
+	position: absolute;
+	top: 33%;
+	right: -4%;
+	z-index: 100;
+	outline:none;
+	/* position: absolute;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #4E443C;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+    -webkit-box-shadow: 0 0 2px #999;
+       -moz-box-shadow: 0 0 2px #999;
+            box-shadow: 0 0 2px #999;*/
+}
+
+.verticalcarousel-control-next {
+	top: 63%;
+	background-image: url(../images/arrow-down-2.png);
+}
+
+.verticalcarousel-control-prev:focus, .verticalcarousel-control-next:focus{
+	outline:none;
+	border:none	;
+	
+}
+.verticalcarousel-control-prev:focus,.verticalcarousel-control-prev:hover {
+	background-image: url(../images/arrow-up-hover.png);
+}
+
+.verticalcarousel-control-next:focus,.verticalcarousel-control-next:hover {
+	background-image: url(../images/arrow-down-hover.png);
+}
+
+.verticalcarousel-control-prev:hover span,.verticalcarousel-control-next:hover span
+	{
+	display: block;
+}
+
+.verticalcarousel-control-prev.inactive,.verticalcarousel-control-next.inactive
+	{
+	opacity: .5;
+	cursor: default;
+}
+/*	Carousel Controls Ends*/
+/* ---------------------------------------------------------------------- */
+/*	CSS loading the Page Start 
+ /* ------------------------------------------------------------------------*/
+#divLoadtag {
+	background-color: none;
+	opacity: 1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.cssload-spin-box {
+	position: fixed;
+	margin: auto;
+	left: 140px;
+	top: 30px;
+	bottom: 0;
+	right: 0;
+	width: 26px;
+	height: 26px;
+	border-radius: 100%;
+	box-shadow: 26px 26px rgb(3, 14, 224), -26px 26px rgb(117, 2, 117),
+		-26px -26px rgb(219, 158, 4), 26px -26px rgb(9, 87, 222);
+	-o-box-shadow: 26px 26px rgb(3, 14, 224), -26px 26px rgb(117, 2, 117),
+		-26px -26px rgb(219, 158, 4), 26px -26px rgb(9, 87, 222);
+	-ms-box-shadow: 26px 26px rgb(3, 14, 224), -26px 26px rgb(117, 2, 117),
+		-26px -26px rgb(219, 158, 4), 26px -26px rgb(9, 87, 222);
+	-webkit-box-shadow: 26px 26px rgb(3, 14, 224), -26px 26px
+		rgb(117, 2, 117), -26px -26px rgb(219, 158, 4), 26px -26px
+		rgb(9, 87, 222);
+	-moz-box-shadow: 26px 26px rgb(3, 14, 224), -26px 26px rgb(117, 2, 117),
+		-26px -26px rgb(219, 158, 4), 26px -26px rgb(9, 87, 222);
+	animation: cssload-spin ease infinite 4.6s;
+	-o-animation: cssload-spin ease infinite 4.6s;
+	-ms-animation: cssload-spin ease infinite 4.6s;
+	-webkit-animation: cssload-spin ease infinite 4.6s;
+	-moz-animation: cssload-spin ease infinite 4.6s;
+}
+
+@keyframes cssload-spin {
+	0%,
+	100% {
+		box-shadow: 26px 26px rgb(9,232,87), -26px 26px rgb(232,221,7), -26px -26px rgb(230,24,9), 26px -26px rgb(230,123,9);
+	}
+	25% {
+		box-shadow: -26px 26px rgb(9,56,240), -26px -26px rgb(8,143,13), 26px -26px rgb(173,214,7), 26px 26px rgb(163,10,163);
+	}
+	50% {
+		box-shadow: -26px -26px rgb(130,12,199), 26px -26px rgb(2,166,144), 26px 26px rgb(10,136,204), -26px 26px rgb(13,210,224);
+	}
+	75% {
+		box-shadow: 26px -26px #dfdfdf, 26px 26px #4f4d49, -26px 26px #dfdfdf, -26px -26px #4f4d49;
+	}
+}
+
+@-o-keyframes cssload-spin {
+	0%,
+	100% {
+		box-shadow: 26px 26px rgb(9,232,87), -26px 26px rgb(232,221,7), -26px -26px rgb(230,24,9), 26px -26px rgb(230,123,9);
+	}
+	25% {
+		box-shadow: -26px 26px rgb(9,56,240), -26px -26px rgb(8,143,13), 26px -26px rgb(173,214,7), 26px 26px rgb(163,10,163);
+	}
+	50% {
+		box-shadow: -26px -26px rgb(130,12,199), 26px -26px rgb(2,166,144), 26px 26px rgb(10,136,204), -26px 26px rgb(13,210,224);
+	}
+	75% {
+		box-shadow: 26px -26px #dfdfdf, 26px 26px #4f4d49, -26px 26px #dfdfdf, -26px -26px #4f4d49;
+	}
+}
+
+@-ms-keyframes cssload-spin {
+	0%,
+	100% {
+		box-shadow: 26px 26px rgb(9,232,87), -26px 26px rgb(232,221,7), -26px -26px rgb(230,24,9), 26px -26px rgb(230,123,9);
+	}
+	25% {
+		box-shadow: -26px 26px rgb(9,56,240), -26px -26px rgb(8,143,13), 26px -26px rgb(173,214,7), 26px 26px rgb(163,10,163);
+	}
+	50% {
+		box-shadow: -26px -26px rgb(130,12,199), 26px -26px rgb(2,166,144), 26px 26px rgb(10,136,204), -26px 26px rgb(13,210,224);
+	}
+	75% {
+		box-shadow: 26px -26px #dfdfdf, 26px 26px #4f4d49, -26px 26px #dfdfdf, -26px -26px #4f4d49;
+	}
+}
+
+@-webkit-keyframes cssload-spin {
+	0%,
+	100% {
+		box-shadow: 26px 26px rgb(9,232,87), -26px 26px rgb(232,221,7), -26px -26px rgb(230,24,9), 26px -26px rgb(230,123,9);
+	}
+	25% {
+		box-shadow: -26px 26px rgb(9,56,240), -26px -26px rgb(8,143,13), 26px -26px rgb(173,214,7), 26px 26px rgb(163,10,163);
+	}
+	50% {
+		box-shadow: -26px -26px rgb(130,12,199), 26px -26px rgb(2,166,144), 26px 26px rgb(10,136,204), -26px 26px rgb(13,210,224);
+	}
+	75% {
+		box-shadow: 26px -26px #dfdfdf, 26px 26px #4f4d49, -26px 26px #dfdfdf, -26px -26px #4f4d49;
+	}
+}
+
+@-moz-keyframes cssload-spin {
+	0%,
+	100% {
+		box-shadow: 26px 26px rgb(9,232,87), -26px 26px rgb(232,221,7), -26px -26px rgb(230,24,9), 26px -26px rgb(230,123,9);
+	}
+	25% {
+		box-shadow: -26px 26px rgb(9,56,240), -26px -26px rgb(8,143,13), 26px -26px rgb(173,214,7), 26px 26px rgb(163,10,163);
+	}
+	50% {
+		box-shadow: -26px -26px rgb(130,12,199), 26px -26px rgb(2,166,144), 26px 26px rgb(10,136,204), -26px 26px rgb(13,210,224);
+	}
+	75% {
+		box-shadow: 26px -26px #dfdfdf, 26px 26px #4f4d49, -26px 26px #dfdfdf, -26px -26px #4f4d49;
+	}
+
+}
+
+	
+#inTurnFadingTextG{
+	width: 264px;
+	height: 26px;
+	margin:auto;
+	left:80px;
+	top: 0;
+	bottom: 0;
+	right: 100px;
+	position:fixed;
+}
+
+.inTurnFadingTextG{
+	color:rgb(105,112,112);
+	font-family:Arial;
+	font-size:35px;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+	float:left;
+	animation-name:bounce_inTurnFadingTextG;
+		-o-animation-name:bounce_inTurnFadingTextG;
+		-ms-animation-name:bounce_inTurnFadingTextG;
+		-webkit-animation-name:bounce_inTurnFadingTextG;
+		-moz-animation-name:bounce_inTurnFadingTextG;
+	animation-duration:2.09s;
+		-o-animation-duration:2.09s;
+		-ms-animation-duration:2.09s;
+		-webkit-animation-duration:2.09s;
+		-moz-animation-duration:2.09s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+}
+
+#inTurnFadingTextG_1{
+	animation-delay:0.75s;
+		-o-animation-delay:0.75s;
+		-ms-animation-delay:0.75s;
+		-webkit-animation-delay:0.75s;
+		-moz-animation-delay:0.75s;
+}
+#inTurnFadingTextG_2{
+	animation-delay:0.9s;
+		-o-animation-delay:0.9s;
+		-ms-animation-delay:0.9s;
+		-webkit-animation-delay:0.9s;
+		-moz-animation-delay:0.9s;
+}
+#inTurnFadingTextG_3{
+	animation-delay:1.05s;
+		-o-animation-delay:1.05s;
+		-ms-animation-delay:1.05s;
+		-webkit-animation-delay:1.05s;
+		-moz-animation-delay:1.05s;
+}
+#inTurnFadingTextG_4{
+	animation-delay:1.2s;
+		-o-animation-delay:1.2s;
+		-ms-animation-delay:1.2s;
+		-webkit-animation-delay:1.2s;
+		-moz-animation-delay:1.2s;
+}
+#inTurnFadingTextG_5{
+	animation-delay:1.35s;
+		-o-animation-delay:1.35s;
+		-ms-animation-delay:1.35s;
+		-webkit-animation-delay:1.35s;
+		-moz-animation-delay:1.35s;
+}
+#inTurnFadingTextG_6{
+	animation-delay:1.5s;
+		-o-animation-delay:1.5s;
+		-ms-animation-delay:1.5s;
+		-webkit-animation-delay:1.5s;
+		-moz-animation-delay:1.5s;
+}
+#inTurnFadingTextG_7{
+	animation-delay:1.64s;
+		-o-animation-delay:1.64s;
+		-ms-animation-delay:1.64s;
+		-webkit-animation-delay:1.64s;
+		-moz-animation-delay:1.64s;
+}
+#inTurnFadingTextG_8{
+	animation-delay:1.79s;
+		-o-animation-delay:1.79s;
+		-ms-animation-delay:1.79s;
+		-webkit-animation-delay:1.79s;
+		-moz-animation-delay:1.79s;
+}
+#inTurnFadingTextG_9{
+	animation-delay:1.94s;
+		-o-animation-delay:1.94s;
+		-ms-animation-delay:1.94s;
+		-webkit-animation-delay:1.94s;
+		-moz-animation-delay:1.94s;
+}
+#inTurnFadingTextG_10{
+	animation-delay:2.09s;
+		-o-animation-delay:2.09s;
+		-ms-animation-delay:2.09s;
+		-webkit-animation-delay:2.09s;
+		-moz-animation-delay:2.09s;
+}
+#inTurnFadingTextG_11{
+	animation-delay:2.24s;
+		-o-animation-delay:2.24s;
+		-ms-animation-delay:2.24s;
+		-webkit-animation-delay:2.24s;
+		-moz-animation-delay:2.24s;
+}
+#inTurnFadingTextG_12{
+	animation-delay:2.39s;
+		-o-animation-delay:2.39s;
+		-ms-animation-delay:2.39s;
+		-webkit-animation-delay:2.39s;
+		-moz-animation-delay:2.39s;
+}
+#inTurnFadingTextG_13{
+	animation-delay:2.54s;
+		-o-animation-delay:2.54s;
+		-ms-animation-delay:2.54s;
+		-webkit-animation-delay:2.54s;
+		-moz-animation-delay:2.54s;
+}
+
+
+
+
+@keyframes bounce_inTurnFadingTextG{
+	0%{
+		color:rgb(84,86,87);
+	}
+
+	100%{
+		color:rgb(255,255,255);
+	}
+}
+
+@-o-keyframes bounce_inTurnFadingTextG{
+	0%{
+		color:rgb(84,86,87);
+	}
+
+	100%{
+		color:rgb(255,255,255);
+	}
+}
+
+@-ms-keyframes bounce_inTurnFadingTextG{
+	0%{
+		color:rgb(84,86,87);
+	}
+
+	100%{
+		color:rgb(255,255,255);
+	}
+}
+
+@-webkit-keyframes bounce_inTurnFadingTextG{
+	0%{
+		color:rgb(84,86,87);
+	}
+
+	100%{
+		color:rgb(255,255,255);
+	}
+}
+
+@-moz-keyframes bounce_inTurnFadingTextG{
+	0%{
+		color:rgb(84,86,87);
+	}
+
+	100%{
+		color:rgb(255,255,255);
+	}
+} 
+
+/*CSS for loading the Page End */
+
+
+/* new flag settings*/
+.badge {
+    border-radius: 12px 12px 12px 12px !important;
+    border-style: solid;
+    border-width: 0;
+    box-shadow: none;
+    color: #FFFFFF !important;
+    font-family: 'Open Sans';
+    font-size: 11px !important;
+    font-weight: 300;
+    padding: 3px 7px;
+    right: -5px;
+    text-shadow: none;
+    top: -5px;
+}
+.badge-success {
+    background-color: #5CB85C;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    color: #fff;
+}
+
+.clip-chevron-down, .clip-chevron-up{
+	margin-left:5px;
+}
+
+/* ---------------------------------------------------------------------- */
+/*	FileUpload
+ /* ---------------------------------------------------------------------- */
+.fileupload .uneditable-input {
+	white-space: nowrap;
+}
+.fileupload-new .input-group .btn-file {
+	-webkit-border-radius: 0 3px 3px 0 !important;
+	-moz-border-radius: 0 3px 3px 0 !important;
+	border-radius: 0 3px 3px 0 !important;
+}
